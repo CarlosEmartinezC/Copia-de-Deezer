@@ -244,8 +244,6 @@ top: 60px;
         display: block;    
 }
 header{
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     height: 100px;
     position: relative;
@@ -255,7 +253,7 @@ header{
     font-size: 10px;
     background-color:var(--background-primary);
     position: absolute;
-    top: 19px;
+    top: 25px;
     right: 72px;
     overflow: visible;
     font-weight: 600;
@@ -273,20 +271,14 @@ header{
     padding: 8px 16px;  
     color: var(--text-primary);  
 }
-.burger-menu, .mobile-only{
-    display: none;
-}
 .top-card {
-border: undefined;
 border: 1px solid var(--divider-secondary);
 border-radius: 10px;
 color: undefined;
 color: var(--text-primary);
--webkit-flex-direction:column;
--ms-flex-direction: column;
 flex-direction: column;
 padding:20px 30px;
-position: absolute;
+position: relative;
 top: 18px;
 }
 .top-card, .partners-top-banner {
@@ -304,11 +296,11 @@ align-items: center;
     font-weight:600;
     line-height:20px;
     opacity:.9;
+    top: 15px;
+    right: -100px;
 }
 
 .top-part .partners-top-banner .partners-top-banner-logos {
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
 }
 .top-part .partners-top-banner .partners-top-banner-logo {
@@ -317,8 +309,6 @@ align-items: center;
 .top-part #header-deezer-logo {
     width: 117px;
     height: 24px;
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
     align-self: center;
     left: 0;
     margin-left: auto;
