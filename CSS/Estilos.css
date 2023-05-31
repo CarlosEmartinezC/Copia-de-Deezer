@@ -511,7 +511,7 @@ article{
     line-height: 19px; 
 }
 
-.navigador-premium-annual, .navigador-premium-student{
+.navegador-premium-annual .navegador-premium-student{
     display:flex;
 }
 .navigador{
@@ -781,4 +781,7 @@ ul{
     align-content: space-between;
     margin-right: 20px;
     position: relative;
+}
+*{
+    text-decoration: none;
 }
